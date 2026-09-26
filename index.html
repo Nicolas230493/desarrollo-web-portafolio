@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nico - Portafolio & Desarrollo Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">Nico<span>.dev</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <h1>Hola, soy <span>Nico</span></h1>
+                <p>Desarrollador Web & Diseñador UX/UI apasionado por crear experiencias digitales excepcionales y funcionales.</p>
+                <a href="#portafolio" class="btn">Ver Portafolio</a>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="container">
+            <h2>¿Quién soy?</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Perfil Profesional</h3>
+                    <p>Mi nombre es Nico. Me especializo en transformar ideas complejas en interfaces limpias, intuitivas y de alto rendimiento.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Desarrollo Web</h3>
+                    <p>Construyo sitios web modernos y adaptables utilizando HTML5, CSS3, JavaScript y buenas prácticas de desarrollo front-end.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Diseño UX/UI</h3>
+                    <p>Diseño experiencias de usuario centradas en la accesibilidad, la estética visual y la facilidad de navegación.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio" class="container">
+            <h2>Mi Portafolio</h2>
+            <div class="portfolio-grid">
+                <article class="project-card">
+                    <div class="project-img">Proyecto 1</div>
+                    <div class="project-info">
+                        <h3>E-commerce Moderno</h3>
+                        <p>Tienda online completa con diseño responsivo, carrito de compras y pasarela de pago simulada.</p>
+                        <a href="#" class="project-link">Ver proyecto &rarr;</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-img">Proyecto 2</div>
+                    <div class="project-info">
+                        <h3>App de Gestión de Tareas</h3>
+                        <p>Aplicación web interactiva para organizar pendientes con almacenamiento local y filtros avanzados.</p>
+                        <a href="#" class="project-link">Ver proyecto &rarr;</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-img">Proyecto 3</div>
+                    <div class="project-info">
+                        <h3>Rediseño UX/UI SaaS</h3>
+                        <p>Investigación de usuarios, wireframes y prototipo de alta fidelidad para plataforma B2B.</p>
+                        <a href="#" class="project-link">Ver proyecto &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="container">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Derechos reservados &copy; 2026 Nico.dev. Creado con pasión para la Web.</p>
+        </div>
+    </footer>
+</body>
+</html>
